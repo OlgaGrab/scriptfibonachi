@@ -37,14 +37,17 @@
 
 
 
-const Number = parseInt(prompt('Number of progression'));
+const number = parseInt(prompt('Number of progression'));
      function fib(n) {
         let = n;
-        if ((n => 1) && (n <= 10)); {
+        if ((n => 1) && (n <= 10)) {
         return fib(n-1) + fib(n-2);
     }
-    else if (n = 1) {
-        return 'n' ; }
+        else if ((n < 1) && (n > 10)) {
+        return 'null' ; }
+        else if (n = 1) {
+            return n;
+        }
 }
     const result = fib(n)
        
