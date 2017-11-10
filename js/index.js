@@ -35,12 +35,18 @@
 // }
 // document.write(result);
 
-const fib = parseInt(prompt('F(n)'));
-let result;
-for (let i = 1; i < 56; i++) {
-    if (i % 2){
-        break;
-    }
+let n = parseInt(prompt('Number of progression'));
+   for (let i = 1; i < n; i++);
+   
+   function fibonacci(n) {
+       if (n = 1) 
+       return n; }
+    else 
+    if ((n => 1) && (n <= 10)) {
+    return fibonacci(n-1) + fibonacci(n-2);
+       
+   }
+   
     document.write(i);
-}
+
 
