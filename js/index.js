@@ -35,7 +35,8 @@
 // }
 // document.write(result);
 
-
+const fib = parseInt(prompt('F(n)'));
+let result;
 for (let i = 1; i < 56; i++) {
     if (i % 2){
         break;
