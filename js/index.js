@@ -35,18 +35,17 @@
 // }
 // document.write(result);
 
-let n = parseInt(prompt('Number of progression'));
-   for (let i = 1; i < n; i++);
-   
-   function fibonacci(n) {
-       if (n = 1) 
-       return n; }
-    else 
-    if ((n => 1) && (n <= 10)) {
-    return fibonacci(n-1) + fibonacci(n-2);
+
+
+const Number = parseInt(prompt('Number of progression'));
+     function fib(n) {
+        let = n;
+        if ((n => 1) && (n <= 10)); {
+        return fib(n-1) + fib(n-2);
+    }
+    else if (n = 1) {
+        return 'n' ; }
+}
+    const result = fib(n)
        
-   }
-   
-    document.write(i);
-
-
+    document.write(result);
